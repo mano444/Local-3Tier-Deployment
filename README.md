@@ -15,13 +15,17 @@ In this repository, we demonstrate the deployment of a 3-tier application locall
 Follow these steps to set up and deploy the 3-tier application on your Mac without Docker:
 
 ### Prerequisites
+- **check WIKI of detailed steps with snaps**: check prerequisites page [Prerequisites](https://github.com/mano444/Local-3Tier-Deployment/wiki/Prerequsistes)
+for installation snaps of prereqs 
 
-Ensure you have the following software installed:
+* Ensure you have the following software installed:
 
 - **Java Development Kit (JDK)**: [Install JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 - **Maven**: [Install Maven](https://maven.apache.org/install.html)
 - **Application Server (e.g., Tomcat)**: [Install Tomcat](http://tomcat.apache.org/)
 - **Database Server (e.g., MySQL)**: [Install MySQL](https://dev.mysql.com/downloads/installer/)
+
+  
 
 ### Clone the Repository
 
