@@ -45,19 +45,21 @@ mvn clean install
 3. Deploy the application to your application server (e.g., Tomcat).
 
 4. Configure the application to connect to your database server (e.g., MySQL).
+
+
 ### Access the Application
 
-# Once the application is deployed and running, you can access it in your web browser:
+Once the application is deployed and running, you can access it in your web browser:
 
 # - Web Tier: http://localhost:8080
 
 ### Contributing
 
-# We welcome contributions, feedback, and collaboration. Feel free to explore and enhance this project.
+We welcome contributions, feedback, and collaboration. Feel free to explore and enhance this project.
 
-# 1. Fork the repository.
-# 2. Create your feature branch (`git checkout -b feature/your-feature`).
-# 3. Commit your changes (`git commit -m 'Add some feature'`).
-# 4. Push to the branch (`git push origin feature/your-feature`).
-# 5. Open a pull request.
+ 1. Fork the repository.
+ 2. Create your feature branch (`git checkout -b feature/your-feature`).
+ 3. Commit your changes (`git commit -m 'Add some feature'`).
+ 4. Push to the branch (`git push origin feature/your-feature`).
+ 5. Open a pull request.
 
