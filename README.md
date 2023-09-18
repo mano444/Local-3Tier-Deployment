@@ -25,14 +25,15 @@ Ensure you have the following software installed:
 
 ### Clone the Repository
 
-```shell
-git clone https://github.com/your-username/Local-3Tier-Deployment.git
+git clone https://github.com/mano444/Local-3Tier-Deployment.git
 cd Local-3Tier-Deployment
+
+
 
 
 ### Build and Run the Application
 
-```shell
+
 1. Navigate to the `java-app/` directory.
 
 cd java-app/
