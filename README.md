@@ -37,6 +37,13 @@ for installation snaps of prereqs
 
 git clone https://github.com/mano444/java_sample.git
 
+###Prep before build##
+-* update the application.properties file under src/main/resources/ with your database name and database user details created above 
+-* create tomcat users  to deploy war file through browser itself 
+--> cd /usr/local/bin/apache-tomcat-10.1.13/conf
+---> nano tomcat-users.xml (create user and use it when deploying war through browser) 
+--> cd /usr/local/bin/apache-tomcat-10.1.13/bin 
+---> ./startup.sh ( starting tomcat) 
 
 
 
@@ -51,7 +58,7 @@ cd java-app/
 
 mvn clean install
 
-3. Deploy the application to your application server (e.g., Tomcat).
+3. Take war file created and Deploy the application to your application server (e.g., Tomcat).
 
 4. Configure the application to connect to your database server (e.g., MySQL).
 
