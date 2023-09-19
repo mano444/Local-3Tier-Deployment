@@ -26,6 +26,12 @@ for installation snaps of prereqs
 - **Database Server (e.g., MySQL)**: [Install MySQL](https://dev.mysql.com/downloads/installer/)
 
   
+### CREATE Database, table and user on sql server and grant permissons to the user on database created based on requirments from sample_java repository 
+- **CREATE DATABASE UserDB;
+- **CREATE TABLE Employee ( id int unsigned auto_increment not null, first_name varchar(250), last_name varchar(250), email varchar(250), username varchar(250), password varchar(250), regdate timestamp, primary key (id) );
+- **CREATE USER 'mano444'@'localhost' IDENTIFIED BY 'mano444'; (remeber these details to be provided for endpoint in java code) 
+- **GRANT ALL PRIVILEGES ON UserDB TO 'mano444'@'localhost';
+
 
 ### Clone the Repository
 
