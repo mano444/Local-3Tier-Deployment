@@ -35,8 +35,7 @@ for installation snaps of prereqs
 
 ### Clone the Repository
 
-git clone https://github.com/mano444/Local-3Tier-Deployment.git
-cd Local-3Tier-Deployment
+git clone https://github.com/mano444/java_sample.git
 
 
 
